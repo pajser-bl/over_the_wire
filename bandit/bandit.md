@@ -64,4 +64,8 @@
 	flag:
 
 ### bandit 13
-	ssh bandit12@bandit.labs.overthewire.org -p 2220
+	ssh bandit13@bandit.labs.overthewire.org -p 2220
+
+
+### bandit 14
+        ssh bandit14@bandit.labs.overthewire.org -p 2220
