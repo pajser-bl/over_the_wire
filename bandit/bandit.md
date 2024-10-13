@@ -60,12 +60,17 @@
 
 ### bandit 12
 	ssh bandit12@bandit.labs.overthewire.org -p 2220
-	hint:
-	flag:
-
+	hint: xxd, gzip, bzip2, tar, list of file signatures 
+	flag: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn 
 ### bandit 13
 	ssh bandit13@bandit.labs.overthewire.org -p 2220
-
-
+        hint: ssh bandit14@localhost -p 2220 -i sshkey.private
+        flag: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 ### bandit 14
         ssh bandit14@bandit.labs.overthewire.org -p 2220
+        hint: telnet localhost 30000
+        flag: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+### bandit 15
+        ssh bandit15@bandit.labs.overthewire.org -p 2220
+        hint: 
+        flag:
